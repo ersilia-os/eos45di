@@ -1,33 +1,34 @@
-Identifier: eos0aaa
-Slug: template-model
+Identifier: eos45di
+Slug: lazychemvis-enamine-hl
 Status: In progress
-Title: This is a template model
-Description: |
-  This is a description of the template model.
-  You can use multiple lines in this description.
+Title: Lazychemvis enamine hit locator
+Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
+  TMAP projections taking the Enamine Hit Locator library with 416K compounds as
+  a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit 
+  physicochemical descriptors are used as molecular descriptors. Two coordinates
+  are returned for each projection method.
 Deployment:
   - Local
   - Online
 Source: Local, Online
 Source Type: Internal, Replicated, External
 Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection, Similarity search, Generation
-Input: 
+Subtask: Property calculation or prediction, Activity prediction, Featurization,
+  Projection, Similarity search, Generation
+Input:
   - Compound
 Input Dimension: 1
-Output: 
+Output:
   - Value
   - Score
   - Compound
   - Text
 Output Dimension: 1
 Output Consistency: Fixed, Variable
-Interpretation: |
-  The output of this template model should be interpreted like this.
+Interpretation: The output of this template model should be interpreted like 
+  this.
 Tag:
-  - Tag 1
-  - Tag 2
-  - Tag 3
+  - Embedding
 Biomedical Area:
   - Biomedical Area 1
   - Biomedical Area 2
@@ -36,6 +37,7 @@ Target Organism:
   - Target Organism 2
 Publication Type: Peer reviewed, Preprint, Other
 Publication Year: 2025
-Publication: https://example.com
-Source Code: https://example.com
-License: GPL-3.0-or-later, MIT, Apache-2.0...
+Publication: None
+Source Code: https://github.com/ersilia-os/lazy-chemvis
+License: MIT
+Contributor: Marina18

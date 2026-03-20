@@ -1,0 +1,1 @@
+/home/marina/anaconda3/envs/eos45di/bin/python -m pip install lazychemvis==1.2.1

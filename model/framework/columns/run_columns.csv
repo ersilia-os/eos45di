@@ -1,1 +1,9 @@
 name,type,direction,description
+pca_x,float,,First principal component projected on the reference chemical space
+pca_y,float,,Second principal component projected on the reference chemical space
+tmap_x,float,,First TMAP dimension projected on the reference chemical space
+tmap_y,float,,Second TMAP dimension projected on the reference chemical space
+tsne_x,float,,First TSNE dimension projected on the reference chemical space
+tsne_y,float,,Second TSNE dimension projected on the reference chemical space
+umap_x,float,,First UMAP dimension projected on the reference chemical space
+umap_y,float,,Second UMAP dimension projected on the reference chemical space

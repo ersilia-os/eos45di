@@ -1,1 +1,5 @@
 smiles
+CCCCCC=CCC=CCCCCCCCC(=O)O
+NC(Cc1cnc[nH]1)C(=O)NC(CO)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)O
+NC(Cc1cnc[nH]1)C(=O)NC(CO)C(=O)NC(Cc1ccc(O)cc1)C(=O)O
+CSCCC(N)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)O

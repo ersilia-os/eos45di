@@ -21,7 +21,6 @@ Output:
 Output Dimension: 8
 Output Consistency: Fixed
 Interpretation: Coordinates of 2D projections, namely PCA, UMAP, tSNE and TMAP.
-
 Tag:
   - Embedding
 Biomedical Area:
@@ -34,3 +33,4 @@ Publication: https://github.com/ersilia-os/lazy-chemvis
 Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
+Incorporation Date: '2026-03-20'

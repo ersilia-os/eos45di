@@ -1,6 +1,6 @@
 Identifier: eos45di
 Slug: lazychemvis-enamine-hl
-Status: In progress
+Status: Ready
 Title: 2D projector trained on enamine hit locator
 Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
   TMAP projections taking the Enamine Hit Locator library with 416K compounds as
@@ -34,6 +34,16 @@ Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-20'
+Last Packaging Date: '2026-03-20'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos45di.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos45di
+Docker Architecture: AMD64
 Model Size: 2006.0
 Environment Size: 8081.0
+Image Size: 11023.22
+Computational Performance 1: 42.64
+Computational Performance 2: 42.89
+Computational Performance 3: 123.62
+Computational Performance 4: 1017.79
+Computational Performance 5: -1.0

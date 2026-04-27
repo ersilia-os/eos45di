@@ -39,8 +39,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos45di.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos45di
 Docker Architecture: AMD64
-Model Size: 2006.0
-Environment Size: 8081.0
+Model Size: 1007.0
+Environment Size: 8082.0
 Image Size: 11023.22
 Computational Performance 1: 42.64
 Computational Performance 2: 42.89

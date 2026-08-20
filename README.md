@@ -1,6 +1,6 @@
 # 2D projector trained on enamine hit locator
 
-Maps a compound against the Enamine Hit Locator Library of around 416,000 molecules, returning PCA, UMAP, t-SNE and TMAP coordinates derived from ECFP4 fingerprints and RDKit descriptors. This particular reference is a diversity-selected screening set, so a position indicates where a compound sits relative to chemistry that is readily purchasable rather than to bioactive space. Coordinates are only interpretable against this specific library.
+This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Enamine Hit Locator library with 416K compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
 
 This model was incorporated on 2026-03-20.Last packaged on 2026-06-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-03-20.Last packaged on 2026-06-22.
 ### Output
 - **Output Dimension:** `8`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Coordinates from PCA, UMAP, t-SNE and TMAP projections against the Enamine Hit Locator library.
+- **Interpretation:** Coordinates of 2D projections, namely PCA, UMAP, tSNE and TMAP.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

@@ -2,7 +2,7 @@
 
 This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Enamine Hit Locator library with 416K compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
 
-This model was incorporated on 2026-03-20.Last packaged on 2026-06-22.
+This model was incorporated on 2026-03-20.Last packaged on 2026-10-02.
 
 ## Information
 ### Identifiers
@@ -48,12 +48,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `195`
 - **Environment Size (Mb):** `2055`
-- **Image Size (Mb):** `8688.08`
+- **Image Size (Mb):** `2443.31`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.65`
-- 100 inputs: `29.7`
-- 10000 inputs: `470.06`
+- 10 inputs: `31.2`
+- 100 inputs: `24.8`
+- 10000 inputs: `382.73`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)

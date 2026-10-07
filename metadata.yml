@@ -2,12 +2,13 @@ Identifier: eos45di
 Slug: lazychemvis-enamine-hl
 Status: Ready
 Title: 2D projector trained on enamine hit locator
-Description: Maps a compound against the Enamine Hit Locator Library of around 416,000
-  molecules, returning PCA, UMAP, t-SNE and TMAP coordinates derived from ECFP4 fingerprints
-  and RDKit descriptors. This particular reference is a diversity-selected screening
-  set, so a position indicates where a compound sits relative to chemistry that is
-  readily purchasable rather than to bioactive space. Coordinates are only interpretable
-  against this specific library.
+Description: Places a molecule on four precomputed two-dimensional maps of the Enamine
+  Hit Locator Library, a diversity-selected catalogue of around 416,000 purchasable
+  screening compounds. Only the PCA map, built on RDKit descriptors, is a true projection
+  applied to new input. The UMAP and t-SNE landscapes were fitted on CLAMP and CheMeleon
+  embeddings and are reproduced by XGBoost regressors over ECFP fingerprints, while
+  a TMAP position is copied from the nearest library neighbour by Tanimoto search.
+  Coordinates mean nothing outside this reference.
 Deployment:
   - Local
 Source: Local

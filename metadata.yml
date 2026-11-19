@@ -45,6 +45,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos45di
 Docker Architecture:
   - AMD64
   - ARM64
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos45di_v2.sif
 Model Size: 235.0
 Environment Size: 2060.0
 Image Size: 656.3

@@ -3,7 +3,7 @@
 Places a molecule on four precomputed two-dimensional maps of the Enamine Hit Locator Library, a diversity-selected catalogue of around 416,000 purchasable screening compounds. Only the PCA map, built on RDKit descriptors, is a true projection applied to new input. The UMAP and t-SNE landscapes were fitted on CLAMP and CheMeleon embeddings and are reproduced by XGBoost regressors over ECFP fingerprints, while a TMAP position is copied from the nearest library neighbour by Tanimoto search. Coordinates mean nothing outside this reference.
 
 This model was incorporated on 2026-03-20.
-Last packaged on 2026-10-02.
+Last packaged on 2026-11-19.
 
 ## Information
 ### Identifiers
@@ -49,12 +49,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `235`
 - **Environment Size (Mb):** `2060`
-- **Image Size (Mb):** `2443.31`
+- **Image Size (Mb):** `656.3`
 
 **Computational Performance (seconds):**
-- 10 inputs: `31.2`
-- 100 inputs: `24.8`
-- 10000 inputs: `382.73`
+- 10 inputs: `31.65`
+- 100 inputs: `24.08`
+- 10000 inputs: `373.67`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)

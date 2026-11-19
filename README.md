@@ -2,7 +2,8 @@
 
 Places a molecule on four precomputed two-dimensional maps of the Enamine Hit Locator Library, a diversity-selected catalogue of around 416,000 purchasable screening compounds. Only the PCA map, built on RDKit descriptors, is a true projection applied to new input. The UMAP and t-SNE landscapes were fitted on CLAMP and CheMeleon embeddings and are reproduced by XGBoost regressors over ECFP fingerprints, while a TMAP position is copied from the nearest library neighbour by Tanimoto search. Coordinates mean nothing outside this reference.
 
-This model was incorporated on 2026-03-20.Last packaged on 2026-10-02.
+This model was incorporated on 2026-03-20.
+Last packaged on 2026-10-02.
 
 ## Information
 ### Identifiers
